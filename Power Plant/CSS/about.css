@@ -1,0 +1,243 @@
+/* *{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+}
+
+.About-us {
+    background-image: url(../../Internal\ Combustion\ Engine/Img/About.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.About-us h1{
+    text-align: center;
+    font-size: 100px;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.About-us h2 , h3  {
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    width: 500px;
+    margin: 0px 500px;
+}
+
+ol , ul {
+    list-style-type: none;
+    font-size: 50px;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+ul{
+    background-color: bisque;
+    
+}
+ol li{
+    text-align: left;
+    
+}
+
+@media (max-width:800px) {
+    
+img{
+    width: 100px;
+}
+
+.About-us {
+    background-image: url(../../Internal\ Combustion\ Engine/Img/About.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.About-us h1{
+    text-align: center;
+    font-size: 10px;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.About-us h2 , h3  {
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    width: 100px;
+    margin: 0px 100px;
+}
+
+ol , ul {
+    list-style-type: none;
+    font-size: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+ul{
+    background-color: bisque;
+    
+}
+ol li{
+    text-align: left;
+    
+}
+} */
+
+body{
+    background: rgb(51,170,44);
+    background: linear-gradient(90deg, rgba(51,170,44,1) 0%, rgba(24,213,211,0.4321078773306197) 100%);
+}
+
+.About-us{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.About-us >div {
+    background: rgb(24,213,211);
+    background: linear-gradient(90deg, rgba(24,213,211,0.4321078773306197) 0%, rgba(51,170,44,1) 100%);
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 30px 25px 5px black;
+    width: 500px;
+}
+
+
+.About-us > .div1{
+    text-align: center;
+}
+
+
+.About-us > div a img{
+    width: 300px;
+    margin: 0px 0px;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 ,h3{
+    color: white;
+    font-size: 30px;
+}
+
+.About-us > .div2 h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.About-us > .div2 a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.About-us > .div2 ul , ol {
+    list-style: none;
+}
+.About-us > .div2 ul > li{
+    font-size: 40px;
+    text-align: center;
+
+}
+.About-us > .div2 ol li  {
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-bottom: solid 2px black;
+    border-left: white solid 2px;
+    width: 350px;
+}
+.About-us > .div2 ol li:hover {
+    background-color: azure;
+}
+
+#Icon{
+    font-size: 20px;
+    
+
+}
+#Icon:hover{
+ 
+    background-color: beige;
+   
+    
+}
+
+
+@media (max-width:800px) {
+    body{
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(90deg,  rgba(255, 255, 255, 0) 0%,  rgba(255, 255, 255, 0) 100%);
+}
+    .About-us {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+    }
+    .About-us >div{
+        margin-bottom: 25px;
+        box-shadow: none;
+    }
+    .About-us >.div1{
+       
+        width: 300px;
+        height: 350px;
+     
+    }
+    .About-us > .div1 h1 , h2 , h3{
+        font-size: 15px;
+    }
+    .About-us > .div1 a img{
+        width: 150px;
+    }
+    .About-us > .div2{
+           
+        width: 300px;
+        height: fit-content;
+    }
+    .About-us > .div2 h2 {
+        font-size: 15px;
+
+    }
+    .About-us > .div2 a {
+        font-size: 15px;
+        text-decoration: none;
+        text-align: left;
+    
+    }
+    .About-us > .div2 ul > li{
+        font-size: 15px;
+        text-align: left;
+    
+    }
+    .About-us > .div2 ul ol li {
+        font-size: 12px;
+        border: none;
+        text-align: left;
+
+    }
+
+    #Icon{
+        font-size: 10px;
+        color: black;
+
+    }
+    #Icon:hover{
+        background-color: lightblue;
+ 
+    }
+    .About-us > .div2 ol li:hover {
+        background:none ;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.Definition {
+    background-color: azure;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(240, 78, 49);
+}
+.Definition h1{
+    top: 10px;
+    padding: 0px;
+    background-color: azure;
+}
+
+.Classification{
+    background-color: 	#800080;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Classification div{
+    width: 350px;
+}
+.Classification h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .Relative-position{
+    background-color: bisque;
+    width: fit-content;
+}
+
+.Method-of-firing{
+    background-color: bisque;
+    width: fit-content;
+} */
+.Classification > div:nth-of-type(odd){
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgb(238, 225, 231) 0% , rgb(57, 111, 218) 100%);
+}
+.Classification > div:nth-of-type(Even){
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgb(57, 111, 218) 0% , rgb(238, 225, 231) 100% );
+}
+
+.BOILER-MOUNTINGS-AND-ACCESSORIES{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    background-color: #800080;
+}
+.BOILER-MOUNTINGS-AND-ACCESSORIES >div{
+    width: 734px;
+    background: rgb(174,235,238);
+    background: linear-gradient(90deg, rgba(174,235,238,1) 0%, rgba(44,94,198,1) 100%);
+
+}
+.BOILER-MOUNTINGS-AND-ACCESSORIES >div h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    top: 10px;
+}
+
+.Boiler-Mountings{
+    background-image: url(../IMAGE/mounting.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.Boiler-Mountings h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#Address-boiler{
+    background-color: rgb(132, 194, 248);
+    text-align: center;
+    font-size: 65px;
+    border-radius: 500px;
+    top: 50px;
+}
+#Address-boiler:hover{
+    border-radius: 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+.Boiler-Mountings p{
+    color: aliceblue;
+    margin: 0px;
+}
+.Boiler-Mountings > div{
+    width: 500px;
+}
+
+#Finalphoto{
+    margin: 0px auto;
+}
+
+.Boiler-Acessories{
+    background-image: url(../IMAGE/Acessory.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Boiler-Acessories h3{
+    font-size: 30px;
+    color: white;
+    text-align:  center;
+    background-color: #800080b2;
+    border-radius: 50px;
+}
+.Boiler-Acessories h3:hover{
+    font-size: 30px;
+    color: black;
+    border-radius: 0px;
+}
+.Boiler-Acessories >div {
+    width: 600px;
+}
+
+
+
+@media (max-width: 800px){
+        body{
+            background-color: 	#800080;
+            height: 9050px;
+        }
+    .Definition {
+        background-color: azure;
+        text-align: center;
+        font-size: 15px;
+        color: rgb(240, 78, 49);
+    }
+ 
+    .Definition h1 ,p{
+        margin: 0px;
+        padding: 0px;
+        top: 10px;
+        font-size: 20px;
+       
+    }
+   
+    
+    .Classification{
+        background-color: 	#800080;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0px auto;
+    }
+    .Classification div{
+        width: 300px;
+        margin: 0px auto;
+    }
+    .Classification h2{
+        margin: 0px;
+        padding: 0px;
+    }
+    .Classification > div:nth-of-type(odd){
+        background: rgb(238,174,202);
+        background: linear-gradient(90deg, rgb(238, 225, 231) 0% , rgb(57, 111, 218) 100%);
+    }
+    .Classification > div:nth-of-type(Even){
+        background: rgb(238,174,202);
+        background: linear-gradient(90deg, rgb(57, 111, 218) 0% , rgb(238, 225, 231) 100% );
+    }
+
+
+    .BOILER-MOUNTINGS-AND-ACCESSORIES{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 300px;
+        background-color: #800080;
+        margin: 0px auto;
+    }
+    .BOILER-MOUNTINGS-AND-ACCESSORIES >div{
+        width: 300px;
+        background: rgb(174,235,238);
+        background: linear-gradient(90deg, rgba(174,235,238,1) 0%, rgba(44,94,198,1) 100%);
+    
+    }
+    .BOILER-MOUNTINGS-AND-ACCESSORIES >div h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    
+.Boiler-Mountings{
+    background-image: url(../IMAGE/mounting.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    width: 300px;
+    margin:  0px auto;
+
+}
+.Boiler-Mountings h3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+#Address-boiler{
+    background-color: rgb(132, 194, 248);
+    margin: 0px auto;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 500px;
+    width: 300px;
+    top: 15px;
+}
+#Address-boiler:hover{
+    border-radius: 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+.Boiler-Mountings p{
+    color: aliceblue;
+    text-align: center;
+}
+.Boiler-Mountings > div{
+    width: 300px;
+}
+.Boiler-Mountings img{
+    width: 300px;
+    height: 300px;
+}
+
+#Finalphoto{
+    margin: 0px auto;
+}
+
+.Boiler-Acessories{
+    background-image: url(../IMAGE/Acessory.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0px auto;
+    justify-content: space-evenly;
+}
+.Boiler-Acessories h3{
+    font-size: 30px;
+    color: white;
+    text-align:  center;
+    background-color: #800080b2;
+    border-radius: 50px;
+}
+.Boiler-Acessories h3:hover{
+    font-size: 30px;
+    color: black;
+    border-radius: 0px;
+    background-color:aqua;
+}
+.Boiler-Acessories >div {
+    width: 300px;
+}
+.Boiler-Acessories img{
+    width: 300px;
+    height: 300px;
+}
+
+}

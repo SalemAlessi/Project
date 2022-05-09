@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+.Gas-Turbine-Start{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Gas-Turbine-Start div{
+    top: 50px;
+    width: 700px;
+    background-color: rgba(0, 0, 255, 0.284);
+
+}
+.Gas-Turbine-Start div:hover {
+    background-color: aliceblue;
+}
+.Gas-Turbine-Start div:hover h1 {  
+    color: blue;
+}
+
+.Gas-Turbine-Start h1{
+    top: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 50px;
+    transition: color 3s;
+}
+.Gas-Turbine-Start ul{
+    list-style: none;
+}
+.Gas-Turbine-Start  #pen{
+    color: black;
+    size: 50px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 170px;
+    font-size: 50px;
+    transition-property: margin-left , color;
+    transition-duration: 3s , 3s;
+}
+.Gas-Turbine-Start div:hover #pen{
+    margin-left:490px ;
+    color: blue;
+}
+
+.Gas-Turbine-Start h2{
+    text-align: center;
+    font-size: 25px;
+}
+#Gas3{
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 140px;
+    position: absolute;
+}
+#Thamb{
+    color: blue;
+    transform:rotate(0deg);
+    transition: transform 1s;
+    font-size: 35px;
+}
+.Gas-Turbine-Start div:hover #Thamb {
+    transform: rotate(-90deg);
+}
+
+/**************************************/
+
+.Second-Gas-Turbine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: 	#fdf5e6;
+}
+.Compressor{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+.Combustion-Chamber{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+.Turbine{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+.Turbine-Accessory{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.Combind{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px; 
+}
+.Combind img{
+    border-radius: 20px;
+}
+
+
+
+@media (max-width:800px){
+    body{
+        height: 4300px;
+    }
+    .Gas-Turbine-Start{
+        background-color: wheat;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 0px auto;
+    }
+    
+    .Gas-Turbine-Start div{
+        width: 300px;
+        background-color: rgba(0, 0, 255, 0.284);
+    
+    }
+    .Gas-Turbine-Start div:hover {
+        background-color: aliceblue;
+    }
+    .Gas-Turbine-Start div:hover h1 {  
+        color: blue;
+    }
+    
+    .Gas-Turbine-Start h1{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 20px;
+        transition: color 3s;
+        top: 10px;
+    }
+    .Gas-Turbine-Start ul{
+        list-style: none;
+    }
+    .Gas-Turbine-Start  #pen{
+        color: black;
+        size: 20px;
+        margin-top: 10px;
+        position: absolute;
+        margin-left: 90px;
+        font-size: 10px;
+        transition-property: margin-left , color;
+        transition-duration: 3s , 3s;
+    }
+    .Gas-Turbine-Start div:hover #pen{
+        margin-left:210px ;
+        color: blue;
+    }
+    
+    .Gas-Turbine-Start h2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+
+    
+.Second-Gas-Turbine{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-between;
+    background-color: 	#fdf5e6;
+    margin: 0px auto;
+
+}
+.Second-Gas-Turbine h2{
+    font-size: 15px;
+    text-align: center;
+}
+.Compressor{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.Combustion-Chamber{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.Turbine{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.Turbine-Accessory{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.Combind{
+    background-color: beige;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px; 
+}
+.Combind img{
+    border-radius: 20px;
+    width: 300px;
+}
+
+}

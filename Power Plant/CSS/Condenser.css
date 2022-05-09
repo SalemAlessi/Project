@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.Beginning-Condenser{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Beginning-Condenser div:first-of-type{
+    width: 700px;
+    background: rgba(227,230,235,0);
+    background: linear-gradient(90deg, rgba(18,238,14,1) 0%, rgba(227,230,235,0) 100%);
+}
+
+.Beginning-Condenser div:last-of-type{
+    width: 700px;
+    background: rgba(227,230,235,0);
+    background: linear-gradient(90deg,rgba(227,230,235,0) 0% , rgba(18,238,14,1) 100%);
+}
+
+.Beginning-Condenser div p {
+    font-size: 18px
+
+}
+.start-condenser h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+    background-color: aquamarine;
+    width: 600px;
+    margin: 0px auto;
+    transition: width 1s;
+    top: 30px;
+    
+}
+
+.start-condenser h1:hover{
+    width: 1200px;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+/*****************************************/
+.Steam-Condenser{
+    background: rgba(227,230,235,0);
+    background: linear-gradient(90deg,rgba(227,230,235,0) 0% , rgba(18,238,14,1) 25% , rgba(227,230,235,0) 70% , rgba(18,238,14,1) 100%);
+}
+.Condenser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.Condenser h2{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(59, 55, 55, 0.342);
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+}
+.Surface-Condenser{
+    background-color:   rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+
+
+}
+.Surface-Condenser:hover{
+    background-color: aquamarine;
+}
+.Air-Leakage{
+    background-color:   rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.Air-Leakage:hover{
+    background-color: aquamarine;
+}
+
+.Efficiency{
+    background-color:   rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.Efficiency:hover{
+
+    background-color: aquamarine;
+}
+.Cooling-Tower{
+    background-color:  rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.Cooling-Tower:hover{
+        background-color: aquamarine;
+}
+
+/****************************************************************/
+
+.Box-Photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: aliceblue;
+
+}
+
+.Box-Photo img{
+    opacity: 0.6;
+    border: 2px solid rgba(240, 101, 83, 0.699);
+    width:600px ;
+    transition: 2s width;
+}
+.Box-Photo img:hover{
+    opacity: 1;
+    width: 800px;
+}
+
+
+@media (max-width: 800px){
+
+    .Beginning-Condenser{
+        background-color: aliceblue;
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 0px auto;
+        justify-content: space-evenly;
+    
+    }
+    .Beginning-Condenser >div {
+        width: 300px;
+    }
+    .Beginning-Condenser div:first-of-type{
+        width: 700px;
+        background: rgba(227,230,235,0);
+        background: linear-gradient(90deg, rgba(18,238,14,1) 0%, rgba(227,230,235,0) 100%);
+    }
+    
+    .Beginning-Condenser div:last-of-type{
+        width: 700px;
+        background: rgba(227,230,235,0);
+        background: linear-gradient(90deg,rgba(227,230,235,0) 0% , rgba(18,238,14,1) 100%);
+    }
+    
+    .Beginning-Condenser div p {
+        font-size: 18px
+    
+    }
+    .start-condenser h1{
+        width: 300px;
+        margin: 0px;
+        padding: 0px;
+        font-size: 30px;
+        text-align: center;
+        background-color: aquamarine;  
+        margin: 0px auto;
+        transition: width 1s;
+        
+    }
+    
+    .start-condenser h1:hover{
+        width: 300px;
+        border-radius: 20px;
+        border-bottom: 2px solid black;
+        box-shadow: 10px 10px 5px black;
+    }
+    
+    /*****************************************/
+    .Steam-Condenser{
+        background: rgba(227,230,235,0);
+        background: linear-gradient(90deg,rgba(227,230,235,0) 0% , rgba(18,238,14,1) 25% , rgba(227,230,235,0) 70% , rgba(18,238,14,1) 100%);
+    }
+
+
+    
+.Condenser{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+.Condenser >div {
+    width: 300px;
+}
+.Condenser h2{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(59, 55, 55, 0.342);
+    font-size: 20px;
+    width: 200px;
+    text-align:center;
+}
+.Surface-Condenser{
+    background-color:   rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+
+
+}
+.Surface-Condenser:hover{
+    background-color: aquamarine;
+}
+.Air-Leakage{
+    background-color:   rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.Air-Leakage:hover{
+    background-color: aquamarine;
+}
+
+.Efficiency{
+    background-color:   rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.Efficiency:hover{
+
+    background-color: aquamarine;
+}
+.Cooling-Tower{
+    background-color:  rgba(127, 255, 212, 0.288);;
+    width: 700px;
+    box-shadow: 20px 10px 10px black;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.Cooling-Tower:hover{
+        background-color: aquamarine;
+}
+
+
+.Box-Photo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: aliceblue;
+    margin: 0px auto;
+
+}
+
+.Box-Photo img{
+    opacity: 0.6;
+    border: 2px solid rgba(240, 101, 83, 0.699);
+    width:300px ;
+    transition: 2s width;
+}
+.Box-Photo img:hover{
+    opacity: 1;
+    width: 300px;
+}
+body{
+    height: 8300px;
+}
+
+
+}

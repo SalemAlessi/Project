@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+/* Steam-power-plant */
+
+.Steam-power-plant{
+    background: rgb(121,233,119);
+    background: linear-gradient(90deg, rgba(121,233,119,1) 10%, rgba(12,13,221,0) 50%);
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.Steam-power-plant h1 , h2{
+    margin-left: 15px;
+    
+}
+.Steam-power-plant p{
+    font-size: 25px;
+    color:rgb(204, 149, 46);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Important-Definition */
+
+.Important-Definition{
+    background-color: rgb(245, 237, 237);
+    background: rgb(6,7,42);
+background: linear-gradient(90deg, rgba(6,7,42,0.6477941518404237) 0%, rgba(12,13,221,0) 100%);
+
+}
+
+.Important-Definition dl >dt{
+    color: rgb(243, 76, 76);
+    font-size: 30px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+.Important-Definition dl >dd{
+    text-transform: capitalize;
+    font-size: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,126,138,0.9587185215883228) 10%, rgba(0,212,255,1) 100%);
+    width: 1200px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+
+}
+.Important-Definition dl >dt:hover{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    border-radius: 20px;
+    text-decoration: underline;
+
+
+}
+.Important-Definition dl >dd:hover{
+    background-color: rgba(155, 151, 155, 1);
+    color: white;
+    border-radius: 20px;
+}
+.Important-Definition #Diagram{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* Carnot-cycle */
+.Carnot-cycle{
+    border: solid 5px rgba(0,0,128);
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgba(155, 151, 155, 1);
+}
+.Carnot-cycle-img{
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 100px 100px;
+}
+.Carnot-cycle img{
+    border: solid 5px black;
+    margin:50px 0px 0px 50px;
+}
+.Carnot-cycle-ol ol{
+    font-size: 30px;
+    
+
+}
+
+/* Rankine Cycle */
+
+.Rankine-cycle h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: teal;
+    margin-top: 100px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition-property:background-color , border-radius , text-decoration  ;
+    transition-duration: 1s , 1s;
+}
+.Rankine-cycle h1:hover{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(13, 231, 231);
+    color: white;
+    border-radius:0px;
+    text-decoration: underline;
+}
+.Rankine-cycle-img div{
+    display: grid;
+    grid-template-columns: repeat(3, 500px) ;
+}
+.Rankine-cycle-img img{
+    border: solid 2px rgb(247, 141, 70);
+    margin: 20px 0px;
+    width: 500px;
+
+
+}
+
+.Rankine-cycle-img img:hover{
+    filter: grayscale(10%);
+    filter: drop-shadow(10px 10px 10px rgb(179, 175, 175)) invert(10%);
+} 
+
+
+
+@media (max-width: 800px){
+body{
+    background-color: aliceblue;
+    }
+.Steam-power-plant{
+    background: linear-gradient(90deg, rgba(121,233,119,1) 10%, rgba(12,13,221,0) 50%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.Steam-power-plant >div {
+    width: 300px;
+}
+.Steam-power-plant >div img{
+    width: 300px;
+}
+
+.Steam-power-plant h1 , h2{
+    margin-left: 15px;
+
+}
+.Steam-power-plant p{
+    font-size: 25px;
+    color:rgb(204, 149, 46);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Important-Definition */
+
+.Important-Definition{
+    background-color: rgb(245, 237, 237);
+    background: rgb(6,7,42);
+    background: linear-gradient(90deg, rgba(6,7,42,0.6477941518404237) 0%, rgba(12,13,221,0) 100%);
+
+}
+.Important-Definition h1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Important-Definition dl >dt{
+    color: rgb(243, 76, 76);
+    font-size: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.Important-Definition dl >dd{
+    text-transform: capitalize;
+    font-size: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,126,138,0.9587185215883228) 10%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+
+}
+.Important-Definition dl >dt:hover{
+    color:black;
+    font-size: 10px;
+    border-radius: 20px;
+    text-decoration: underline;
+
+
+}
+.Important-Definition dl >dd:hover{
+    background-color: rgba(155, 151, 155, 1);
+    color: white;
+    border-radius: 20px;
+}
+.Important-Definition #Diagram{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.Important-Definition #Diagram img {
+    width: 300px;
+}
+
+/* Carnot-cycle */
+.Carnot-cycle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: solid 5px rgba(0,0,128);
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgba(155, 151, 155, 1);
+    margin: 0px auto;
+}
+.Carnot-cycle h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding:0px ;
+}
+.Carnot-cycle-img{
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+   padding: 0px;
+}
+.Carnot-cycle-img img {
+    width: 200px;
+    height: 300px;
+}
+.Carnot-cycle img{
+    border: solid 1px black;
+    margin:50px 0px 0px 50px;
+}
+.Carnot-cycle-ol ol{
+    font-size: 20px;
+
+}
+
+/* Rankine Cycle */
+
+.Rankine-cycle h1{
+    font-size: 25px;
+    text-align: center;
+    background-color: teal;
+    margin-top: 100px ;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-property:background-color , border-radius , text-decoration  ;
+    transition-duration: 1s , 1s;
+    width: 300px;
+    margin-left: 30px;
+}
+.Rankine-cycle h1:hover{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(13, 231, 231);
+    color: white;
+    border-radius:0px;
+    text-decoration: underline;
+}
+.Rankine-cycle-img{
+    margin: 0px 40px;
+}
+.Rankine-cycle-img div{
+    display: grid;
+    grid-template-columns: repeat(1, 500px) ;
+    gap:5px;
+    margin: 0px auto;
+}
+.Rankine-cycle-img img{
+    border: solid 2px rgb(247, 141, 70);
+    width: 300px;
+
+
+}
+
+.Rankine-cycle-img img:hover{
+    filter: grayscale(10%);
+    filter: drop-shadow(10px 10px 10px rgb(179, 175, 175)) invert(10%);
+} 
+body{
+    height: 12250px;
+}
+
+}
